@@ -12,7 +12,7 @@ test-output
 surefire-reports/
 
 #ignore test data
-testdata/ 
+TestData/ 
 
 # Ignore logs and screenshots
 *.log
