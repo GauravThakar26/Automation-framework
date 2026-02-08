@@ -1,0 +1,35 @@
+ # Ignore Eclipse-specific files
+.classpath
+.project
+.settings/
+.properties
+.xls
+# Ignore Maven target folder
+target/
+ 
+# Ignore TestNG output
+test-output
+surefire-reports/
+ 
+# Ignore logs and screenshots
+*.log
+screenshots/
+ 
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+ 
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+ 
+# Ignore Extent Report outputs
+*.html
+*.xml
+!pom.xml
+!testng.xml
+ 
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp

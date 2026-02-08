@@ -1,0 +1,43 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" verbose="3" parallel="false">
+
+	<!-- ✅ Smoke Test Group -->
+	 <listeners>
+        <listener class-name="listeners.RetryListener"/>
+    </listeners>
+	<test name="Smoke Tests" preserve-order="true">
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="tests.LoginTestDemo" />
+			<class name="tests.DashboardTest" />
+			<class name="tests.RequestCreationPageTest" />
+			<class name="tests.RequestDetailsTest" />
+			<class name="tests.ListPageTest" />
+			<class name="tests.ContractCreationTest" />
+		</classes>
+	</test>
+
+	<!-- ✅ Regression Test Group -->
+	<test name="Regression Tests" preserve-order="true">
+		<groups>
+			<run>
+				<include name="regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="tests.LoginTestDemo" />
+			<class name="tests.DashboardTest" />
+			<class name="tests.RequestCreationPageTest" />
+			<class name="tests.RequestDetailsTest" />
+			<class name="tests.ListPageTest" />
+			<class name="tests.ContractCreationTest" />
+		</classes>
+	</test>
+
+</suite>
+    
