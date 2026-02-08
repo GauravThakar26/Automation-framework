@@ -10,7 +10,10 @@ target/
 # Ignore TestNG output
 test-output
 surefire-reports/
- 
+
+#ignore test data
+testdata/ 
+
 # Ignore logs and screenshots
 *.log
 screenshots/
