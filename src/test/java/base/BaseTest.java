@@ -37,6 +37,7 @@ public class BaseTest {
 			} else if (browser.equalsIgnoreCase("edge")) {
 				WebDriverManager.edgedriver().setup();
 				localDriver = new EdgeDriver();
+				
 			} else {
 				throw new RuntimeException("Unsupported browser: " + browser);
 			}
@@ -44,10 +45,10 @@ public class BaseTest {
 			DriverManager.getDriver().manage().window().maximize();
 			DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(Constants.IMPLICIT_WAIT));
 			DriverManager.getDriver().get(prop.getProperty("baseUrl"));
-			System.out.println("✅ BaseTest setup executed");
+			System.out.println("âœ… BaseTest setup executed");
 
 		} catch (Exception e) {
-			System.err.println("❌ Driver initialization failed: " + e.getMessage());
+			System.err.println("â�Œ Driver initialization failed: " + e.getMessage());
 			e.printStackTrace();
 			DriverManager.quitDriver();
 		}
@@ -58,7 +59,7 @@ public class BaseTest {
 		if (DriverManager.getDriver() != null) {
 			DriverManager.quitDriver();
 		} else {
-			System.out.println("⚠️ No active driver found to quit.");
+			System.out.println("âš ï¸� No active driver found to quit.");
 		}
 	}
 
