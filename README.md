@@ -71,4 +71,5 @@ Test execution reports are generated using **ExtentReports**.
 ## 👤 Author
 
 Developed by Gaurav Thakar 
+
 Contributions and suggestions welcome!
