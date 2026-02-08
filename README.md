@@ -8,10 +8,15 @@ Test execution reports are generated using **ExtentReports**.
 ## ✨ Features
 
 ✔ Page Object Model (POM) Design Pattern
+
 ✔ Data-Driven Testing using Excel (Apache POI)
+
 ✔ TestNG Grouping (Smoke Tests, Regression Tests)
+
 ✔ Dynamic Wait Utilities (Explicit & Fluent Waits)
+
 ✔ ExtentReports Integration
+
 ✔ Git Version Control
 
 
@@ -38,7 +43,7 @@ Test execution reports are generated using **ExtentReports**.
 ## ▶ How to Run Tests
 
 1. Open the project in your IDE (e.g., IntelliJ IDEA or Eclipse).  
-2. Right-click on `testng.xml`.  
+2. Right-click on** `testng.xml`**.  
 3. Select **Run As TestNG Suite**.
 
 ---
