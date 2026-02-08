@@ -5,14 +5,14 @@ It follows the **Page Object Model (POM)** design pattern and supports **data-dr
 Test execution reports are generated using **ExtentReports**.
 
 
-## Features
+## ✨ Features
 
-- Page Object Model (POM) Design Pattern
-- Data-Driven Testing using Excel (Apache POI)
-- TestNG Grouping (e.g., Smoke Tests, Regression Tests)
-- Dynamic Wait Utilities (Explicit & Fluent Waits)
-- ExtentReports Integration
-- Git Version Control
+✔ Page Object Model (POM) Design Pattern
+✔ Data-Driven Testing using Excel (Apache POI)
+✔ TestNG Grouping (Smoke Tests, Regression Tests)
+✔ Dynamic Wait Utilities (Explicit & Fluent Waits)
+✔ ExtentReports Integration
+✔ Git Version Control
 
 
 ## Folder Structure
@@ -35,7 +35,7 @@ Test execution reports are generated using **ExtentReports**.
 
 ---
 
-## How to Run Tests
+## ▶ How to Run Tests
 
 1. Open the project in your IDE (e.g., IntelliJ IDEA or Eclipse).  
 2. Right-click on `testng.xml`.  
@@ -43,7 +43,7 @@ Test execution reports are generated using **ExtentReports**.
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - Java  
 - Selenium WebDriver  
@@ -54,7 +54,7 @@ Test execution reports are generated using **ExtentReports**.
 
 ---
 
-## Prerequisites
+## ✅ Prerequisites
 
 - JDK 8 or above  
 - Maven installed and configured  
@@ -63,7 +63,7 @@ Test execution reports are generated using **ExtentReports**.
 ---
 
 
-## Author
+## 👤 Author
 
 Developed by Gaurav Thakar 
 Contributions and suggestions welcome!
